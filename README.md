@@ -9,9 +9,14 @@ All files are created as following:
 - copy current brl.mod / pub.mod / maxmod2.mod
 - to compile "MaxIDE"
   - maxgui.mod is fetched and copied to the mods
+  - github.com/maxmods/bah.mod is fetched and copied to the mods (only
+    gtkmaxgui.mod / gtkwebgtkhtml.mod are needed)
   - maxide-sources are fetched
   - MaxIDE is compiled for the platform via
+
     Linux32: ./bmk makeapp -r -g x86 path/to/maxide.bmx
+
     Linux64: ./bmk makeapp -r -g x84 path/to/maxide.bmx
+
     ...
 - compress everything into one archive for easy downloadability
